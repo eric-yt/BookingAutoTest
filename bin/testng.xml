@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Booking.com Automation Framework" verbose="1" >
+  <test name="test" >
+    <parameter name="browser" value="chrome" />
+    <parameter name="url" value="http://www.booking.com/" />
+    <parameter name="cityName" value="Los Angeles" />
+
+    <classes>
+       <class name="test.Booking_SearchAndReserve" />
+    </classes>
+  </test>
+</suite>
