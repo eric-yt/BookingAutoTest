@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# Folder
+test-output/
+.DS_Store
