@@ -58,7 +58,8 @@ WebDriver driver;
 	}
 	
 	@Test(priority=1,groups="search&reserve",timeOut=30000)
-	public void getPageLoad() {
+	public void getPageLoad() throws InterruptedException {
+		System.out.println("getPageLoad start.");
 		//validate page title
 		String title = driver.getTitle();
 		System.out.println(title);
@@ -68,11 +69,14 @@ WebDriver driver;
 		WebElement cityInputBox=driver.findElement(By.id("ss"));
 		Assert.assertTrue(cityInputBox.isDisplayed());
 		drawBorder(driver,cityInputBox);
+		Thread.sleep(1000);
+		System.out.println("getPageLoad is done.");
 	}
 	
 	@Test(priority=2,groups="search&reserve",dependsOnMethods="getPageLoad",timeOut=30000)
 	@Parameters({"cityName"})
 	public void searchTest(String cityName) throws InterruptedException{
+		System.out.println("searchTest start.");
 		//Input city name
 		WebElement cityInputBox=driver.findElement(By.id("ss"));
 		cityInputBox.clear();
@@ -137,6 +141,7 @@ WebDriver driver;
 		drawBorder(driver,firstname);
 		firstname.sendKeys("Zheng");
 		Thread.sleep(1000);
+		System.out.println("searchTest is done.");
 	}
 	
 	//Explicit wait
