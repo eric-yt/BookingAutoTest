@@ -11,7 +11,7 @@ It developed by TestNG+Selenium WebDriver on Eclipse IDE.
 
 * [To get started](#to-get-started)
 * [Eclipse IDE settings](#eclipse-ide-settings)
-* [Run Tests In Eclipse](#run-tests-in-eclipse)
+* [Run Tests in Eclipse](#run-tests-in-eclipse)
 * [Tools](#tools)
 
 ## To get started
@@ -43,7 +43,7 @@ It developed by TestNG+Selenium WebDriver on Eclipse IDE.
   * Step by Step to install and you may or may not encounter a Security warning, if in case you do just click OK.
   * Restart the Eclipse.
 
-## Run Tests In Eclipse
+## Run tests in Eclipse
 
 * Run as TestNG Test
   * Select "Booking_SearchAndReserve.java' file, right click this file and select "Run As" -> "TestNG Test".
