@@ -11,7 +11,7 @@ It developed by TestNG+Selenium WebDriver on Eclipse IDE.
 
 * [To get started](#to-get-started)
 * [Eclipse IDE settings](#eclipse-ide-settings)
-* [Run Tests In Eclipse](#run-test-in-eclipse)
+* [Run Tests In Eclipse](#run-tests-in-eclipse)
 * [Tools](#tools)
 
 ## To get started
