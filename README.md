@@ -1,11 +1,13 @@
 # BookingAutoTest
 A automation test exercise for booking.com. 
-It developed by TestNG+Selenium WebDriver on Eclipse IDE.
+It developed by TestNG+Selenium WebDriver on Eclipse IDE, use one java class to implement it.
+We can use Maven+TestNG+Selenium+Appach POI API to do a complete project as POM(Page Object Model) in the future. 
 
   - Search a hotel in Los Angeles on [booking.com](https://www.booking.com)
   - Select a hotel in the results (1st one is fine)
   - Select a room
   - Get to checkout screen
+
 
 ## Table of Contents
 
